@@ -1,0 +1,366 @@
+
+
+--- PREGUNTA: Dame un análisis completo del perfil de viajeros que llegan a Medellín: ¿de dónde vienen, cuándo viajan, cuánto gastan? ---
+RAW RESPONSE:
+{
+  "respuesta_texto": "Basado en un análisis de los datos disponibles, podemos identificar un perfil de los viajeros que llegan a Medellín de la siguiente manera. La mayoría de los viajeros vienen de Colombia y los Estados Unidos, aunque también hay un número significativo de viajeros de España, México y Canadá. La mayoría de las reservas se hacen a través de agencias de venta al por menor de primer nivel, aunque también hay un número significativo de reservas hechas a través de campeones en línea de R&L y nichos en línea. En términos de segmentación, un 61.8% son de viajes de negocio y 37% de ocio. La mayoría de las búsquedas y reservas se realizan durante los meses de mayo, julio y noviembre. Los viajeros suelen reservar con una anticipación de alrededor de 46 días en promedio, y la estancia es de alrededor de 11 días en promedio. El precio promedio del boleto es de $215, y la mayoría de las reservas son para la clase económica, aunque también hay un 3.1% de reservas para clases premium. En general, esto sugiere una estrategia de segmentación de público objetivo que se centra en los viajeros de negocios de Colombia y los Estados Unidos, que reservan con varias semanas de anticipación, y que priorizan el costo por encima de las comodidades premium.",
+  "respuesta_tabla": [
+    {
+      "metrica": "Mercado principal",
+      "valor": "Colombia",
+      "detalle": "3501805 reservas"
+    },
+    {
+      "metrica": "Ciudad principal",
+      "valor": "MDE",
+      "detalle": "1696061 reservas"
+    },
+    {
+      "metrica": "Agencia principal",
+      "valor": "Retail-Prime",
+      "detalle": "1986127 reservas"
+    },
+    {
+      "metrica": "Segmentación de viajes",
+      "valor": "Negocios",
+      "detalle": "61.8%"
+    },
+    {
+      "metrica": "Precio promedio del billete (USD)",
+      "valor": "215.27",
+      "detalle": "promedio"
+    }
+  ],
+  "respuesta_grafica": {
+    "tipo": "pie",
+    "titulo": "Distribución de segmentación de viajes",
+    "etiquetas": ["Negocios", "Ocio", "Desconocido"],
+    "datos": [61.8, 37.0, 1.2]
+  }
+}
+
+
+--- PREGUNTA: hola ---
+RAW RESPONSE:
+¡Hola! ¿Cómo puedo asistirte hoy? Soy un analista de datos especializado en turismo. Mi objetivo es ayudarte a entender y optimizar el turismo en tu región utilizando análisis de datos de búsqueda y reserva de vuelos. ¿Cómo podemos empezar?
+
+
+--- PREGUNTA: Dame un análisis completo del perfil de viajeros que llegan a Medellín: ¿de dónde vienen, cuándo viajan, cuánto gastan? ---
+RAW RESPONSE:
+Observando los datos, tenemos información detallada acerca del perfil del viajero que visita Medellín:
+
+1) Origen: La mayoría de los visitantes a Medellín son locales, es decir, provienen de Colombia, con 3,501,805 reservas. Siguiéndole, pero a bastante distancia, se encuentran Estados Unidos con 496,739 reservas y España con 178,346 reservas.
+
+2) Estacionalidad: Con respecto a cuándo viajan, encontramos que el mes con más búsquedas y reservas de viajes a Medellín es noviembre, seguido por mayo y julio. La gente suele comenzar a buscar vuelos con una anticipación promedio de 46.5 días y reservan en promedio 41.9 días antes del viaje. Normalmente, la duración del viaje es de 10.9 noches en promedio.
+
+3) Gasto: En relación al gasto que realizan, vemos que a nivel global, los visitantes a Medellín gastan un total de 764,636,695 USD, con un precio promedio por reserva de 215 USD. La mayor parte del gasto es generada por viajeros provenientes de Colombia, seguidos por los de Estados Unidos y España.
+
+Debajo presento los detalles de este análisis en el formato solicitado.
+
+```json
+{
+  "respuesta_texto": "El perfil del viajero que visita Medellín está conformado principalmente por visitantes locales (de Colombia), que realizan su viaje principalmente en noviembre, con una duración promedio del viaje de 10.9 noches y un gasto promedio por reserva de 215 USD.",
+  "respuesta_tabla": [
+    {
+      "metrica": "Reservas desde Colombia",
+      "valor": 3501805,
+      "detalle": "Número total de reservas desde Colombia hacia Medellín"
+    },
+    {
+      "metrica": "Mes pico de viajes",
+      "valor": "Noviembre",
+      "detalle": "Mes con mayor número de búsquedas y reservas de viajes"
+    },
+    {
+      "metrica": "Duración promedio del viaje",
+      "valor": 10.914298548710418,
+      "detalle": "Duración media del viaje en noches"
+    },
+    {
+      "metrica": "Gasto promedio por reserva",
+      "valor": 215,
+      "detalle": "Valor medio de reserva en USD"
+    }
+  ],
+  "respuesta_grafica": {
+    "tipo": "bar",
+    "titulo": "Reservas por país",
+    "etiquetas": ["Colombia", "Estados Unidos", "España", "México", "Canadá"],
+    "datos": [3501805, 496739, 178346, 146299, 67034]
+  }
+}
+```
+
+
+--- PREGUNTA: dame mas detalles ---
+RAW RESPONSE:
+Por supuesto, veamos más detalles relevantes:
+
+Origen de los Viajeros:
+- Más allá de los visitantes locales, Colombia, Medellín tiene una fuerte atracción por los viajeros norteamericanos (Estados Unidos y Canadá) y europeos (España principalmente).
+- Entre las ciudades, la propia Medellín representa la principal fuente de tráfico, seguido por Bogotá y Cali. Las ciudades internacionales con alto flujo hacia Medellín incluyen Nueva York, Miami y Madrid.
+
+Estacionalidad:
+- Hay altos volúmenes de búsqueda y reserva en los meses de Mayo, Noviembre y Julio principalmente, lo que indica que podrían ser los mejores meses para ejecutar campañas de marketing.
+- Los viajeros tienden a buscar vuelos con alrededor de 46 días de anticipación y reservar con 41 días de anticipación.
+
+Perfil del gasto:
+- El valor promedio por reserva es de 215 USD. Sin embargo, hay una alta variación en los precios, con algunos llegando hasta 133,535 USD. 
+- Los viajeros de negocios representan un mayor porcentaje de las reservas (61.8%), mientras que los viajeros de ocio representan el 37%.
+- La cabina Economy es la más reservada, pero hay un 3.1% de viajeros que reservan la categorías Premium (Business y Primera Clase).
+    
+Dentro de estos detalles, algo notorio es que existe una gran cantidad de viajeros de negocios que visitan Medellín, lo que sugiere que tenemos un segmento fuerte para enfocarse. Además, los viajeros de categorías Premium, aunque son un porcentaje menor, podrían representar una oportunidad para aumentar el ingreso promedio por reserva.
+
+Los detalles están presentes en el siguiente formato (presetando solo algunos):
+
+```json
+{
+  "respuesta_texto": "Entre los detalles adicionales, vale destacar el alto porcentaje de viajeros de negocios (61.8%), y que un 3.1% de los viajeros reservan en categorías Premium. Además, hay un alto flujo de viajeros provenientes de Norteamérica y Europa.",
+  "respuesta_tabla": [
+    {
+      "metrica": "Viajeros de negocio",
+      "valor": "61.8%",
+      "detalle": "Porcentaje de viajeros de negocio respecto al total"
+    },
+    {
+      "metrica": "Viajeros Premium",
+      "valor": "3.1%",
+      "detalle": "Porcentaje de viajeros que reservan en categorías Premium"
+    },
+    {
+      "metrica": "Flujo desde Nueva York",
+      "valor": 153093,
+      "detalle": "Cantidad de reservas desde Nueva York hacia Medellin"
+    },
+    {
+      "metrica": "Flujo desde Miami",
+      "valor": 107268,
+      "detalle": "Cantidad de reservas desde Miami hacia Medellin"
+    },
+    {
+      "metrica": "Flujo desde Madrid",
+      "valor": 96189,
+      "detalle": "Cantidad de reservas desde Madrid hacia Medellin"
+    }
+  ],
+  "respuesta_grafica": {
+    "tipo": "bar",
+    "titulo": "Reservas por ciudad",
+    "etiquetas": ["Medellin", "Bogota", "Cali", "Nueva York", "Miami", "Madrid"],
+    "datos": [1696061, 910308, 200788, 153093, 107268, 96189]
+  }
+}
+```
+
+
+--- PREGUNTA: hola ---
+RAW RESPONSE:
+¡Hola! ¿Cómo puedo ayudarte hoy?
+
+
+--- PREGUNTA: ¿Cuál es la anticipación promedio con la que los viajeros buscan y reservan vuelos a Medellín? ¿Cómo podemos usar esto en nuestras campañas? ---
+RAW RESPONSE:
+Según los análisis de nuestros datos, podemos ver ciertos patrones en las búsquedas y reservas de vuelos a Medellín que podemos usar para nuestras campañas de marketing.
+
+1. En términos de anticipación de búsqueda y reserva, observamos que la anticipación de búsqueda promedio es de alrededor de 47 días, con una mediana de 20 días. Esto significa que la mayoría de las personas comienzan a buscar vuelos a Medellín unos 20 días antes de su viaje potencial. En cuanto a las reservas, la anticipación promedio es de 42 días, y la mediana es de 17 días. 
+
+2. Existe una marcada estacionalidad tanto en las búsquedas como en las reservas. Los meses de noviembre, mayo y julio son los más populares para las búsquedas y las reservas. En contraste, enero, febrero y septiembre suelen ser los meses con menos actividad.
+
+3. En cuanto a la duración de la estancia, los visitantes suelen pasar en promedio casi 11 noches en Medellín, con una mediana de 4 noches.
+
+Para nuestras campañas, esto nos sugiere varias estrategias posibles:
+
+- Podemos coordinar nuestras campañas de marketing para coincidir con los momentos en que los viajeros están más propensos a buscar y reservar vuelos, es decir, aproximadamente de 20 a 45 días antes de los meses pico de noviembre, mayo y julio.
+  
+- Además, podríamos considerar campañas promocionales durante los meses más lentos para estimular la demanda durante esos períodos.
+
+- Por último, podríamos enfocar parte de nuestras campañas en persuadir a los visitantes para que prolonguen su estancia en Medellín, dada la brecha entre la mediana y el promedio de la duración de la estancia.
+
+Aquí están los datos numéricos principales de mi análisis:
+
+```json
+{
+  "respuesta_texto": "Tu texto explicativo aquí...",
+  "respuesta_tabla": [
+    {
+      "metrica": "Anticipación promedio de búsqueda",
+      "valor": "46.58",
+      "detalle": "Días"
+    },
+    {
+      "metrica": "Anticipación promedio de reserva",
+      "valor": "41.90",
+      "detalle": "Días"
+    },
+    {
+      "metrica": "Meses de mayor actividad de búsqueda y reserva",
+      "valor": "Noviembre, Mayo, Julio",
+      "detalle": "Meses"
+    },
+    {
+      "metrica": "Meses de menor actividad de búsqueda y reserva",
+      "valor": "Enero, Febrero, Septiembre",
+      "detalle": "Meses"
+    },
+    {
+      "metrica": "Duración promedio de estancia",
+      "valor": "10.91",
+      "detalle": "Noches"
+    }
+  ],
+  "respuesta_grafica": {
+    "tipo": "bar",
+    "titulo": "Estacionalidad de búsquedas y reservas",
+    "etiquetas": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"],
+    "datos": [1591, 1564, 1988, 2000, 2050, 1920, 1989, 1892, 1802, 1845, 2086, 1823]
+  }
+}
+```
+
+
+--- PREGUNTA: dame una explicación mas detallada por año ---
+RAW RESPONSE:
+Para dar un análisis más detallado durante el transcurso del año, podemos observar las tendencias mensuales de las búsquedas y reservas de vuelos a Medellín.
+
+1. Búsquedas: El mes con más búsquedas de viajes a Medellín es noviembre, seguido de mayo y julio. Por otro lado, los meses con menos búsquedas son enero, febrero y septiembre.
+
+    - Enero: 374,583
+    - Febrero: 379,084
+    - Marzo: 442,372
+    - Abril: 448,748
+    - Mayo: 460,510
+    - Junio: 432,479
+    - Julio: 449,608
+    - Agosto: 428,227
+    - Septiembre: 406,458
+    - Octubre: 415,647
+    - Noviembre: 489,743
+    - Diciembre: 410,826
+
+2. Reservas: De manera similar a las búsquedas, los meses con mayores reservas son noviembre, mayo y marzo. Los meses con menos reservas tampoco difieren mucho de las búsquedas.
+
+    - Enero: 354,127
+    - Febrero: 379,703
+    - Marzo: 453,521
+    - Abril: 448,324
+    - Mayo: 462,805
+    - Junio: 442,449
+    - Julio: 437,590
+    - Agosto: 425,205
+    - Septiembre: 410,288
+    - Octubre: 415,123
+    - Noviembre: 482,986
+    - Diciembre: 426,164
+
+Estos detalles nos proporcionan información valiosa sobre cuándo la gente está más interesada en visitar Medellín y cuándo realmente reservan sus viajes.
+
+Particularmente, las diferencias entre las búsquedas y las reservas nos pueden indicar que hay una demanda insatisfecha durante ciertos meses. Por ejemplo, julio es el tercer mes con más búsquedas, pero no aparece en los tres primeros meses de reservas reales.
+
+Por último, conforme a la anticipación de compra (lead time), encontramos que la mayoría de las búsquedas se realizan dentro de un rango de 30 días o más antes del viaje. Sin embargo, la mayoría de las reservas reales ocurren con una anticipación de 17 días. Esto nos indica que los viajeros suelen buscar vuelos bastante tiempo antes de que realicen sus reservas definitivas.
+
+La tabla a continuación muestra las métricas más importantes:
+
+```json
+{
+  "respuesta_texto": "Tu análisis narrativo, explicación detallada y recomendaciones aquí...",
+  "respuesta_tabla": [
+    {
+      "metrica": "Búsquedas por mes",
+      "valor": "De 374,583 a 489,743",
+      "detalle": "Búsquedas"
+    },
+    {
+      "metrica": "Reservas por mes",
+      "valor": "De 354,127 a 482,986",
+      "detalle": "Reservas"
+    },
+    {
+      "metrica": "Anticipación media de búsqueda",
+      "valor": "46.58",
+      "detalle": "Días"
+    },
+    {
+      "metrica": "Anticipación media de reserva",
+      "valor": "41.90",
+      "detalle": "Días"
+    },
+    {
+      "metrica": "Duración promedio de la estadía",
+      "valor": "10.91",
+      "detalle": "Noches"
+    }
+  ],
+  "respuesta_grafica": {
+    "tipo": "bar",
+    "titulo": "Estacionalidad de búsquedas y reservas",
+    "etiquetas": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"],
+    "datos": [1591, 1564, 1988, 2000, 2050, 1920, 1989, 1892, 1802, 1845, 2086, 1823]
+  }
+}
+```
+
+
+--- PREGUNTA: hola ---
+RAW RESPONSE:
+¡Hola! ¿Cómo puedo asistirte hoy?
+
+
+--- PREGUNTA: Dame un análisis completo del perfil de viajeros que llegan a Medellín: ¿de dónde vienen, cuándo viajan, cuánto gastan? ---
+RAW RESPONSE:
+Aquí está el análisis completo del perfil de los viajeros que llegan a Medellín:
+
+**Origen del viajero**: Los viajeros provienen principalmente de Colombia, con un total de 3,501,805 viajeros, seguidos por Estados Unidos y España con 496,739 y 178,346 viajeros, respectivamente. Con respecto a las ciudades, la mayoría de los viajeros provienen de Medellín y Bogotá. 
+
+**Perfil de las agencias**: La agencia dominante en términos de reservas es "Retail-Prime", seguida muy de cerca por "Online-R&L Champions".
+
+**Segmento de viaje**: El 61.8% de los viajeros son de negocios, mientras que el 37.0% son turistas de ocio. La mayoría de los viajes son redondos, seguidos por viajes de solo ida.
+
+**Estacionalidad**: Los meses con más reservas son noviembre, mayo y marzo, mientras que los meses de menor actividad son enero, febrero y septiembre. La mayoría de las búsquedas y reservas de vuelos se realizan con una anticipación de 8 a 30 días.
+
+**Costo de viaje**: El costo promedio de un viaje es de $215 USD, y la mayoría de los asientos reservados son en clase económica. La tarifa media para los viajeros de negocios es de $1,487 USD, significativamente más alta que la de la clase económica.
+
+El resultado final tiene el siguiente formato:
+
+```json
+{
+  "respuesta_texto": "Los viajeros que visitan Medellín provienen principalmente de Colombia, seguidos por Estados Unidos y España... [TEXT COMPLETO ARRIBA]",
+  "respuesta_tabla": [
+    {
+      "metrica": "Origen del Viajero - País Principal",
+      "valor": "Colombia",
+      "detalle": "3,501,805 viajeros"
+    },
+    {
+      "metrica": "Origen del Viajero - Ciudad Principal",
+      "valor": "Medellín",
+      "detalle": "1,696,061 viajeros"
+    },
+    {
+      "metrica": "Perfil de las Agencias - Dominante",
+      "valor": "Retail-Prime",
+      "detalle": "1,986,127 reservas"
+    },
+    {
+      "metrica": "Segmento de Viaje - Mayoritario",
+      "valor": "Negocios",
+      "detalle": "61.8% de los viajeros"
+    },
+    {
+      "metrica": "Estacionalidad - Meses con más reservas",
+      "valor": "Noviembre, Mayo, Marzo",
+      "detalle": "Meses Pico"
+    },
+    {
+      "metrica": "Costo de Viaje - Promedio",
+      "valor": "$215 USD",
+      "detalle": "Costo promedio por viaje"
+    }
+  ],
+  "respuesta_grafica": {
+    "tipo": "bar",
+    "titulo": "Top 10 Origen de Viajeros",
+    "etiquetas": ["Colombia", "Estados Unidos", "España", "México", "Puerto Rico", "Canadá", "Brasil", "Perú", "Ecuador", "Chile"],
+    "datos": [3501805, 496739, 178346, 146299, 72900, 67034, 58079, 53741, 48937, 44453]
+  }
+}
+```
